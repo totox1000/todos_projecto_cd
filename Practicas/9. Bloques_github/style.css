@@ -1,0 +1,64 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.flex-container {
+    background-color: rgb(80, 184, 128);
+    width: 40%;
+    height: 50%;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid cornflowerblue ;
+
+}
+
+.primera-fila {
+background-color: rgb(125, 194, 225);
+    width: 90%;
+    height: 50%;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid cornflowerblue ;
+    display: inline-block;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    }
+
+.segunda-fila {
+    background-color: rgb(191, 165, 184);
+    width: 90%;
+    height: 50%;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid cornflowerblue ;
+    display: inline-block;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.tercera-fila {
+    background-color: rgb(147, 169, 51);
+    width: 90%;
+    height: 50%;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid cornflowerblue;
+    display: inline-block;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+
+
+

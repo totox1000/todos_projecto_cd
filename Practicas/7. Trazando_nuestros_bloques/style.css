@@ -1,0 +1,71 @@
+*{
+    vertical-align: top;
+}
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 40px auto;
+    padding: 20px 0px 0px 0px;
+    
+}
+.top-nav {
+    height: 150px;
+    width: 865px;
+    background-color: green;
+    border: 1px solid #000000;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+}
+.side-nav {
+    height: 300px;
+    width: 230px;
+    background-color: blue;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+
+    
+}
+.main {
+    vertical-align: top;
+    display: inline-block;
+    height: 400px;
+    width: 550px;
+    background-color: red;
+    border: 1px solid black;
+    margin-top: -360px;
+    margin-left: 335px ;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+
+.sub-content {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow; 
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-left: 10px ;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    padding: 30px;
+   
+}
+
+#advertisement {
+    height: 80px;
+    width: 480px;
+    background-color: purple;
+    float: right;
+    border: 1px solid black;
+    margin-top: 60px;
+    margin-left: 2px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    padding: 20px;
+    
+}
+

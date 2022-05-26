@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="cabeza">  <!--Bloque header-->
+    <div class="nav">
+        <ul class="nav-links">
+            <li><img src="imgs/logo.png" width="50" alt="logo"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Examples</a></li>
+            <li><a href="#">Themes</a></li>
+            <li><a href="#">Expo</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="nav-links_1">
+            <li><select class="name">
+            <option> v 4.3 </option>
+            <option> v 4.5 </option>
+            <option> v 4.6 </option>
+            </select>
+            
+        </li>
+            <li><a href="https://github.com/"><img src="imgs/ico-git.png" alt="github"></a></li>
+            <li><a href="https://twitter.com/home?lang=es"><img src="imgs/ico-twitter.png" alt="twitter"></a></li>            
+            <li><a href="https://slack.com/intl/es-cl/"><img src="imgs/ico-slack.png" alt="ico-slack"></a></li> 
+            <li><a href="https://opencollective.com/bootstrap"><img src="imgs/ico-coll.png" alt="opencollective"></a></li> 
+            <li><button class="btn" onclick="turnOff(this)" >Download</button></li>
+        </ul>
+    </div>
+</header>
+<main class="container">
+    <div class="caja_izq">
+        <div class="bootstrap" > Bootstrap </div>
+        <div class="parrafo"> Build responsive, mobile-first projects on the web with the world's most popular front-end component library. <br><br>
+        Bootraps is a open sourse toolkit for developing with HTML, CSS, and Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on JQuery</div>
+        <div class="botones">
+            <button class="btn_1"> Get started </button>
+            <button class="btn_1" onclick="alert ('This page says Ninja was liked')">Download</button>
+        </div>
+        <div class="currently">Currently v4.3.1</div>
+        <div class="segment">
+        <div class="segment_1"><img src="imgs/ad-segment.png" width="200" alt=""></div>
+        <div class="segment_2"> Collect customer data once with a single API. <br> Power your entire tech stack <br> ads via Carbon</div>
+        </div>
+    </div>
+    <div class="caja_derecha">
+        <img onclick="hide(this)" src="imgs/main_img.png" height="700" alt="B">
+    </div>
+
+</main>
+
+<div class="subcontainer">
+    <div class="caja_1">
+        <div class="imagen"> <img src="imgs/ico-install.png" width="80" alt=""></div>
+        <div class="installation"> Installation</div>
+        <div class="include">Include Bootstrap's source Sass and Javascript via npm. Composer or meteor. Package managed installs don't iclude our build system and readme <br>
+        <br> $ npm install bootstrap <br><br>$ gem install bootstrap v-4.3.1</div>
+        <button class="btn_2">Read installation docs</button>
+    </div>
+
+
+
+    <div class="caja_2"> 
+        <div class="imagen"> <img src="imgs/ico-cdn.png" width="80" alt=""></div>
+        <div class="installation"> BootstrapCDN</div>
+        <div class="include">When you only need to include Bootstrap compiled CSS or JS, you can use BootstrapCDN
+            <br>
+            <br>
+        <h2><b>CSS Only</b></h2>
+        <br>
+        <br>
+        <p>link rel="stylesheet" href="https"</p>
+
+
+        <h2><b>CSS Only</b></h2>
+        <br>
+        <br>
+        <p>link rel="stylesheet" href="https"
+        link rel="stylesheet" href="https"
+        link rel="stylesheet" href="https"
+        </p>
+
+        </div>
+        <button class="btn_3">Explore the docs</button>
+    </div>
+
+
+    <div class="caja_1">
+        <div class="imagen"> <img src="imgs/ico-themes.png" width="80" alt=""></div>
+        <div class="installation"> Official Themes</div>
+        <div class="include">Take Bootstrap 4 to the next level with official premium themes-toolkits built on Bootstrap with new components and plugins, docs,and build tools <br>
+        <br> <br><br><img src="imgs/theme_img.png" width="400" alt=""></div>
+        <button class="btn_3">Browse Themes</button>
+    </div>
+
+
+</div>
+
+
+<footer>
+
+<ul class="nav-links_2">
+        <li><a href="#">Github</a></li>
+        <li><a href="#">twitter</a></li>
+        <li><a href="#">Examples</a></li>
+        <li><a href="#">About</a></li>
+</ul> 
+
+<div class="parrafooter">
+    Designed and built all the love in the world by the Bootcam team with the help of our contribuctors.
+    Currently v4.3.1 Code licensed MIT. docs CC BY 3.0
+
+</div>
+
+
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

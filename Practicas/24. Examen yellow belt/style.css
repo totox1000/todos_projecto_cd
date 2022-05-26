@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav {
+    background-color: rebeccapurple;
+    color: #ffffff;
+    height: 80px;
+    width: 2000px; /* for styling purposes */
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.nav-links { /* items interiores header */
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    margin:12px 700px 0px 0px;
+    
+}
+
+.nav-links_1 { 
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    list-style-type: none;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-around;
+    margin:12px 30px 0px 0px;
+}
+
+.nav-links_2 { 
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    margin:12px 0px 40px 30px;
+    border: none;
+}
+
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: rebeccapurple;
+    color: #ffffff;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+footer {
+    color: black;
+    height: 200px;
+    width: 2000px; /* for styling purposes */
+    justify-content: space-between;
+    border: none;
+    margin:90px 0px 0px 0px;
+    align-content: stretch;
+    
+}
+
+
+.container { /* container*/
+    width: 1980px;
+    height: 1200px;
+    border: none;
+    padding: 10px;
+    margin: 60px 0px 0px 20px;
+
+}
+
+.caja_izq {
+    width: 900px;
+    height: 900px;
+    border: none;
+    padding: 10px;
+    margin: 40px 0px 0px 60px;
+}
+
+.caja_derecha{ 
+    width: 800px;
+    height: 800px;
+    border: none;
+    padding: 10px;
+    margin: 80px 0px 0px 20px;
+    position: absolute;
+    top: 120px;
+    bottom: 0px;
+    right: 0px;
+    left: 1100px;
+}
+
+.bootstrap {
+    font-size: 40px;
+    color: rebeccapurple;
+    width: 400px;
+    height: 80px;
+    border: none;
+    padding: 10px;
+    margin: 20px 0px 0px 20px;
+}
+
+.parrafo {
+    font-size: 30px;
+    color: black;
+    width: 800px;
+    height: 300px;
+    border: none;
+    padding: 10px;
+    margin: 20px 0px 0px 20px;
+}
+
+.botones {
+    font-size: 30px;
+    color: black;
+    width: 800px;
+    height: 100px;
+    border: none;
+    padding: 10px;
+    margin: 30px 0px 0px 20px;
+    justify-content: space-between;
+
+
+}
+
+.btn_1 {
+    height: 70px;
+    width: 310px;
+    background-color: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0px 50px 0px 15px;
+}
+
+.currently {
+    height: 70px;
+    width: 310px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 20px 50px 0px 20px;
+}
+
+.segment {
+    height: 200px;
+    width: 700px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 20px 50px 0px 20px;
+    position: absolute;
+    display: flex;
+}
+
+.segment_1 {
+    height: 160px;
+    width: 205px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+}
+
+.segment_2 {
+    height: 160px;
+    width: 290px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+    padding: 0px;
+}
+
+.subcontainer {
+    height: 900px;
+    width: 1980px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 60px 0px 0px 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.caja_1 {
+    height: 800px;
+    width: 510px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+}
+
+.btn_2 {
+    height: 70px;
+    width: 310px;
+    background-color: none;
+    color: royalblue;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 10px 50px 0px 15px;
+}
+
+.imagen {
+    height: 100px;
+    width: 100px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+}
+
+.installation {
+    height: 80px;
+    width: 350px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 50px;
+    margin: 20px 0px 0px 20px;
+}
+
+
+.include {
+    height: 450px;
+    width: 450px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 20px 0px 0px 20px;
+
+}
+
+.parrafooter {
+    height: 80px;
+    width: 850px;
+    background-color: none;
+    color: black;
+    border: none;
+    font-size: 20px;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+.caja_2 {
+    height: 800px;
+    width: 510px;
+    background-color: none;
+    color: royalblue;
+    border: none;
+    font-size: 20px;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+}
+
+.btn_3 {
+    height: 70px;
+    width: 310px;
+    background-color: none;
+    color: royalblue;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 20px 50px 0px 15px;
+}
+
+
+.scroll {
+    overflow: scroll;
+}
+
+p {
+    overflow: scroll;
+}
+
+.name {
+    background-color: rebeccapurple;
+    width: 65px;
+}
